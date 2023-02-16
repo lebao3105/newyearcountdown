@@ -1,5 +1,5 @@
 ## New year counter
-This program shows you days remaining to the next year, and the current year progress (it's quite buggy, I don't know why:( ).
+This program shows you days remaining to the next year, and the current year progress.
 
 ## Run
 ```bash

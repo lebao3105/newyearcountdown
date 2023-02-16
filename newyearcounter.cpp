@@ -34,9 +34,10 @@ int dayinYear(date_now dt)
     return s;
 }
 
-float get_year_progress(int today, int daysofyear)
+double get_year_progress(int today, int daysofyear)
 {
-    return today / (daysofyear / 100);
+    double per = (double) today / daysofyear * 100;
+    return per;
 }
 
 int main()
@@ -49,7 +50,7 @@ int main()
     int daysofyear = 365 + checkLeapYear(dt.year);
     int daysremaining = daysofyear - s;
     int monthsremaining = (daysremaining % daysofyear) / 30;
-    float year_progress = roundf(get_year_progress(s, daysofyear));
+    double year_progress = get_year_progress(s, daysofyear);
 
     if (j.sc > 0)
         j.mn--;
