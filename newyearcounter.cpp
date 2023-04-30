@@ -59,11 +59,11 @@ int main()
         j.hr--;
 
     // Our current location
-    cout << "The current local time is: " << asctime(ltm);
+    cout << "This program started on : " << asctime(ltm);
     cout << "This year " << dt.year << " is " << year_progress << "%"
          << " complete." << endl;
 
-    // Date / Time remaining
+    // Date & Time remaining
     cout << "Next year " << dt.year + 1 << " starts after totally "
         << daysremaining << " day(s), and about "
         << j.hr << " hour(s) " << j.mn << " minute(s) " << j.sc << " second(s)."
