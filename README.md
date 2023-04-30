@@ -1,4 +1,4 @@
-## New year counter
+## New year countdown
 This program shows you days remaining to the next year, and the current year progress.
 
 ## Run
